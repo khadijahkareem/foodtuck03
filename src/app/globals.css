@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.orange-box {
+  position: relative;
+}
+.burger{
+  position: absolute;
+  top: 55px;
+  left: 22px;
+  width: 56;
+  height: 56;
+}
+.cookies{
+  position: absolute;
+  top: 55px;
+  left: 22px;
+  width: 56;
+  height: 56;
+}
+.wine{
+  position: absolute;
+  top: 55px;
+  left: 22px;
+  width: 56;
+  height: 56;
+}
+.clock{
+  position: absolute;
+  top: 55px;
+  left: 22px;
+  width: 56;
+  height: 56;
+}
+.gry-box{
+  position: relative;
+  width: 1680px;
+  height: 99px;
+  background-color:#4F4F4F;
+  
+}
+.icon{
+  position: absolute;
+  left: 1100px;
+  top: 20px;
+  right: 90px;
+}
+ .head{
+  position: relative;
+  
+ }
+ .txt{
+  position: absolute;
+  top: 128px;
+  left: 660px;
+ }
