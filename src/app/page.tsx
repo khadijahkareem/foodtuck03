@@ -15,13 +15,14 @@ export default function Home() {
         <div className="">Blog</div>
         <div className="">Pages</div>
         <div>About</div>
-        <div>Shop</div>
+        <a href="/shop">Shop</a>
         <div>Contact</div>
 
         </div>
         <div className="text-white w-1/2 rounded-full border-2 border-[#ff9f0d] p-4 mr-22 mx-80 flex gap-[160px]">search
-        <Image className="ml-24 mr-12" src={"/image/vector.svg"} alt="hero" width={24} height={24}/></div>
-        <Image className="mr-32" src={"/image/handbag.svg"} alt="hero" width={24} height={24}/>
+        <Image className="ml-24 mr-12" src={"/image/vector.svg"} alt="hero" width={24} height={24}/>
+        </div>
+        <a href='/chekout'><Image className="mr-32" src={"/image/handbag.svg"} alt="hero" width={24} height={24}/></a>
       </div>
 
       <div className="flex h-80% bg-black px-16">
