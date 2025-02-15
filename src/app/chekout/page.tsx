@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 
 const page = () => {
   return (
-    <div>
+    <div className=''>
         <div className='bg-black flex justify-center py-6'>
         <div className="text-[#ff9f0d] text-2xl">Food</div>
         <div className="  text-white text-2xl ">tuck</div>

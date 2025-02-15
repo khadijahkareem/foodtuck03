@@ -4,12 +4,12 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return(
     <div className="">
-    <div className="bg-black flex  pt-12  justify-center">
+    <div className= " bg-black pt-12 flex justify-center">
       <div className=" text-[#ff9f0d] font-[helvtica] text-2xl text-center">Food</div>
       <div className="  text-white font-[helvtica] text-2xl text-center">tuck</div>
       </div>
-      <div className="bg-black flex  px-24 pt-12 pb-6 ">
-        <div className="w-1/2 flex gap-[30px] text-white pt-6">
+      <div className=" bg-black flex  px-24 pt-12 pb-6 ">
+        <div className=" w-1/2 flex gap-[30px] text-white pt-6">
         <div className="">home</div>
         <a href="/menu" className="">menu</a>
         <div className="">Blog</div>

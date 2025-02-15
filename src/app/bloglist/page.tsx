@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Footer from '@/components/Footer'
+
 
 const page = () => {
   return (
@@ -31,7 +31,7 @@ const page = () => {
         </div>
        <div className='txt pt-24 ml-12'> <Image className=' ' src={"/image/bdetail.svg"} alt='hero'width={197} height={28}/></div>
        </div>
-
+       <footer/>
        </div>
 
     
